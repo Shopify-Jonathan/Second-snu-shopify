@@ -1,0 +1,12 @@
+{
+  "layout": "theme.zipifypages",
+  "sections": {
+    "content": {
+      "type": "blog-content-zipifypages",
+      "settings": {}
+    }
+  },
+  "order": [
+    "content"
+  ]
+}

@@ -1,0 +1,249 @@
+<div class="video-box page-width">
+
+    <div class="video-section">
+        <div class="text-cont">
+        <a href="{{ section.settings.link_main }}">
+      <h2>{{ section.settings.heading }}</h2>
+      <p>{{ section.settings.heading-sub }}</p>
+        </a>
+        </div>
+        <div class="image-cont">
+            <img src="{{ section.settings.image | img_url: 'master' }}">
+            </div>
+    </div>
+
+
+  <div class="boxes">
+    {% for block in section.blocks %}
+        {% case block.type %}
+            {%- when 'boxes' -%}
+        <div class="box">
+            <a href="{{ block.settings.link }}" title="{{ block.settings.text }}">{{ block.settings.text }}</a>
+            <a href="{{ block.settings.link2 }}" title="{{ block.settings.text2 }}">{{ block.settings.text2 }}</a>
+            <a href="{{ block.settings.link3 }}" title="{{ block.settings.text3 }}">{{ block.settings.text3 }}</a>
+            <a href="{{ block.settings.link4 }}" title="{{ block.settings.text4 }}">{{ block.settings.text4 }}</a>
+            <a href="{{ block.settings.link5 }}" title="{{ block.settings.text5 }}">{{ block.settings.text5 }}</a>
+            <a href="{{ block.settings.link6 }}" title="{{ block.settings.text6 }}">{{ block.settings.text6 }}</a>
+            <a href="{{ block.settings.link7 }}" title="{{ block.settings.text7 }}">{{ block.settings.text7 }}</a>
+            <a href="{{ block.settings.link8 }}" title="{{ block.settings.text8 }}">{{ block.settings.text8 }}</a>
+            <a href="{{ block.settings.link9 }}" title="{{ block.settings.text9 }}">{{ block.settings.text9 }}</a>
+        </div>
+        {%- when 'video' -%}
+            <div class="video-container">
+                {{
+                  block.settings.self_hosted_video
+                  | video_tag:
+                    autoplay: block.settings.autoplay,
+                    loop: true,
+                    width: '100%'
+                }}
+              </div>
+    {%- endcase -%}
+        {% endfor %}
+  </div>
+  </div>
+
+  {% if section.settings.fullwidth %}
+    <style>
+      /* Your full-height styles go here */
+      .video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* Adjust this value as needed for the aspect ratio */
+        height: 0;
+        overflow: hidden;
+      }
+      .video-container iframe,
+      .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  {% endif %}
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var videos = document.querySelectorAll('.youtube, .vimeo');
+      function playPauseVideos() {
+        videos.forEach(function (video) {
+          if (section.settings.autoplay) {
+            video.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+          } else {
+            video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+          }
+        });
+      }
+      // Initial play/pause based on the 'Autoplay video' setting
+      playPauseVideos();
+      // Listen for changes in the 'Autoplay video' setting and play/pause accordingly
+      document.getElementById('section_autoplay').addEventListener('change', function () {
+        section.settings.autoplay = this.checked;
+        playPauseVideos();
+      });
+    });
+  </script>
+  {% schema %}
+  {
+    "name": "video with Box",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Video section heading",
+        "default": "POPULÆRE MÆRKER"
+      },
+      {
+        "type": "text",
+        "id": "heading-sub",
+        "label": "Video section Sub heading",
+        "default": " UDFORSK FLERE MÆRKER"
+      },
+      {
+        "type": "url",
+        "id": "link_main",
+        "label": "link here"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "image here"
+    }
+    ],
+    "blocks": [
+    {
+      "type": "boxes",
+      "name": "box",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Link Label"
+        },
+        {
+            "type": "url",
+            "id": "link",
+            "label": "Link Here"
+          },
+          {
+            "type": "text",
+            "id": "text2",
+            "label": "Link Label"
+          },
+          {
+              "type": "url",
+              "id": "link2",
+              "label": "Link Here"
+            },
+            {
+                "type": "text",
+                "id": "text3",
+                "label": "Link Label"
+              },
+              {
+                  "type": "url",
+                  "id": "link3",
+                  "label": "Link Here"
+                },
+                {
+                    "type": "text",
+                    "id": "text4",
+                    "label": "Link Label"
+                  },
+                  {
+                      "type": "url",
+                      "id": "link4",
+                      "label": "Link Here"
+                    },
+                    {
+                        "type": "text",
+                        "id": "text5",
+                        "label": "Link Label"
+                      },
+                      {
+                          "type": "url",
+                          "id": "link5",
+                          "label": "Link Here"
+                        },
+                        {
+                            "type": "text",
+                            "id": "text6",
+                            "label": "Link Label"
+                          },
+                          {
+                              "type": "url",
+                              "id": "link6",
+                              "label": "Link Here"
+                            },
+                            {
+                                "type": "text",
+                                "id": "text7",
+                                "label": "Link Label"
+                              },
+                              {
+                                  "type": "url",
+                                  "id": "link7",
+                                  "label": "Link Here"
+                                },
+                                {
+                                    "type": "text",
+                                    "id": "text8",
+                                    "label": "Link Label"
+                                  },
+                                  {
+                                      "type": "url",
+                                      "id": "link8",
+                                      "label": "Link Here"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "id": "text9",
+                                        "label": "Link Label"
+                                      },
+                                      {
+                                          "type": "url",
+                                          "id": "link9",
+                                          "label": "Link Here"
+                                        }
+    ]
+},
+{
+    "type": "video",
+    "name": "video",
+    "settings": [
+        {
+            "type": "video",
+            "id": "self_hosted_video",
+            "label":"Select Video"
+          },
+          {
+            "type": "checkbox",
+            "id": "autoplay",
+            "label": "Autoplay video",
+            "default": false
+          },
+          {
+            "type": "checkbox",
+            "id": "controller",
+            "label": "Enable Controls",
+            "default": false
+          },
+  ]
+}
+  
+    ],
+    
+    "presets": [
+      {
+        "name": "video with Box",
+        "blocks": [
+            {
+              "type": "boxes"
+            }
+        ]
+      }
+    ]
+  }
+  {% endschema %}

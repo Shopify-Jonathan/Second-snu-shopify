@@ -1,0 +1,346 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_kgTTcn": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_BHft9r": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇦🇹 AUSTRIA",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 5.99 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p><h4>UPS<\/h4><p><strong>Price:<\/strong> 8.99 EUR<br\/><strong>Delivery time:<\/strong> 2-4 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BfcbJR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇧🇪 BELGIUM",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 6.99 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cfLWDz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇧🇬 BULGARIA",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 8.99 EUR<br\/><strong>Delivery time:<\/strong> 4-5 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 4-5 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NeGQ3T": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇭🇷 CROATIA",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 6.99 EUR<br\/><strong>Delivery time:<\/strong> 3-4 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 4-6 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fhRVF8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇨🇾 CYPRUS",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 15.99 EUR<br\/><strong>Delivery time:<\/strong> 5-6 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_e9E9D7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇨🇿 CZECH REPULIC",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 6.49 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 8.49 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_iTVVbc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇩🇰 DENMARK",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 7.99 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.59 EUR<br\/><strong>Delivery time:<\/strong> 2 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JcCXzF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇪🇪 ESTONIA",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 8.99 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 2-4 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ixCfnx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇫🇮 FINLAND",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 15.49 EUR<br\/><strong>Delivery time:<\/strong> 5-7 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 4-6 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DAGU7X": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇫🇷 FRANCE",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 9.49 EUR<br\/><strong>Delivery time:<\/strong> 3-4 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 2-4 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TLfNKk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇩🇪 GERMANY",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 5.99 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 8.49 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aPkhTJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇬🇷 GREECE",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 11.49 EUR<br\/><strong>Delivery time:<\/strong> 5-6 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 10.49 EUR<br\/><strong>Delivery time:<\/strong> 5-6 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xaXLJ6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇭🇺 HUNGARY",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 5.99 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 8.99 EUR<br\/><strong>Delivery time:<\/strong> 2-4 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YFge47": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇮🇪 IRELAND",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 13.99 EUR<br\/><strong>Delivery time:<\/strong> 4-5 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 10.49 EUR<br\/><strong>Delivery time:<\/strong> 4-5 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DwY4XA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇮🇹 ITALY",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 8.99 EUR<br\/><strong>Delivery time:<\/strong> 3-4 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 3-6 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_crPbxJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇱🇻 LATVIA",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 7.99 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 2-4 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ztPap8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇱🇮 LIECHTENSTEIN",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 8.99 EUR<br\/><strong>Delivery time:<\/strong> 4-5 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 27.99 EUR<br\/><strong>Delivery time:<\/strong> 4-6 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_i7NriM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇱🇮 LITHAUNIA",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 7.49 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 2-4 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fQhcXQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇱🇺 LUXEMBOURG",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 7.99 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 3-4 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MHViVD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇳🇱 NETHERLANDS",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 6.49 EUR<br\/><strong>Delivery time:<\/strong> 3-4 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Kqtinn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇳🇴 NORWAY",
+            "icon": "none",
+            "row_content": "<h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 27.99 EUR<br\/><strong>Delivery time:<\/strong> 5-6 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pB9eG6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇵🇱 POLAND",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 4.59 EUR<br\/><strong>Delivery time:<\/strong> 1-2 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 4.19 EUR<br\/><strong>Delivery time:<\/strong> 1-2 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QcL8B9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇵🇹 PORTUGAL",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 8.49 EUR<br\/><strong>Delivery time:<\/strong> 4-5 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 10.49 EUR<br\/><strong>Delivery time:<\/strong> 4-5 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JCRmR7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇵🇹 PORTUGAL (AZORES \/ MADERA)",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 26.99 EUR<br\/><strong>Delivery time:<\/strong> 5-7 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pR7eYr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇷🇴 ROMANIA",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 9.49 EUR<br\/><strong>Delivery time:<\/strong> 3-4 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 3-4 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cn6BxE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇸🇰 SLOVAKIA",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 5.49 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 8.49 EUR<br\/><strong>Delivery time:<\/strong> 2-3 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BEcN3P": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇸🇮 SLOVENIA",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 7.99 EUR<br\/><strong>Delivery time:<\/strong> 3-4 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 3-4 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RjzBAm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇪🇸 SPAIN",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 8.99 EUR<br\/><strong>Delivery time:<\/strong> 4-6 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 3-4 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VRRPWk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇪🇸 SPAIN (CANARY ISLAND \/ MELILLA)",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 49.00 EUR<br\/><strong>Delivery time:<\/strong> 6-7 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EdmBAi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇸🇪 SWEDEN",
+            "icon": "none",
+            "row_content": "<h4>GLS<\/h4><p><strong>Price:<\/strong> 13.99 EUR<br\/><strong>Delivery time:<\/strong> 4-6 days<\/p><h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 9.99 EUR<br\/><strong>Delivery time:<\/strong> 3-6 days<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_R8zCaV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "🇬🇧 UNITED KINGDOM",
+            "icon": "none",
+            "row_content": "<h4><strong>UPS<\/strong><\/h4><p><strong>Price:<\/strong> 16.99 EUR<br\/><strong>Delivery time:<\/strong> 5-6 days<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_BHft9r",
+        "collapsible_row_BfcbJR",
+        "collapsible_row_cfLWDz",
+        "collapsible_row_NeGQ3T",
+        "collapsible_row_fhRVF8",
+        "collapsible_row_e9E9D7",
+        "collapsible_row_iTVVbc",
+        "collapsible_row_JcCXzF",
+        "collapsible_row_ixCfnx",
+        "collapsible_row_DAGU7X",
+        "collapsible_row_TLfNKk",
+        "collapsible_row_aPkhTJ",
+        "collapsible_row_xaXLJ6",
+        "collapsible_row_YFge47",
+        "collapsible_row_DwY4XA",
+        "collapsible_row_crPbxJ",
+        "collapsible_row_ztPap8",
+        "collapsible_row_i7NriM",
+        "collapsible_row_fQhcXQ",
+        "collapsible_row_MHViVD",
+        "collapsible_row_Kqtinn",
+        "collapsible_row_pB9eG6",
+        "collapsible_row_QcL8B9",
+        "collapsible_row_JCRmR7",
+        "collapsible_row_pR7eYr",
+        "collapsible_row_cn6BxE",
+        "collapsible_row_BEcN3P",
+        "collapsible_row_RjzBAm",
+        "collapsible_row_VRRPWk",
+        "collapsible_row_EdmBAi",
+        "collapsible_row_R8zCaV"
+      ],
+      "settings": {
+        "caption": "SELECT YOUR COUNTRY BELOW, TO SEE PRICES AND DELIVERY TIMES",
+        "heading": "COUNTRIES",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_kgTTcn"
+  ]
+}

@@ -1,0 +1,63 @@
+<div class="text-block page-width">
+    <div class="text-section">
+        {% if section.settings.heading %}
+        <h2>{{ section.settings.heading }}</h2>
+        {{ section.settings.text }}
+        {% endif %}
+        </div>
+
+    <div class="text-blocks">
+        {% for block in section.blocks %}
+            <div class="text_items">
+                <h2>{{ block.settings.heading }}</h2>
+                {{ block.settings.link }}
+                </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Text Block",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+        },
+        {
+            "type": "richtext",
+            "id": "text",
+            "label": "Add your text here",
+              }
+  ],
+  "blocks": [
+  {
+    "type": "Text",
+    "name": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+          "type": "richtext",
+          "id": "link",
+          "label": "Text Here"
+        }
+  ]
+}
+],
+  "presets": [
+    {
+      "name": "Text Block",
+      "blocks": [
+          {
+            "type": "Text"
+          }
+      ]
+    }
+  ]
+}
+{% endschema %}

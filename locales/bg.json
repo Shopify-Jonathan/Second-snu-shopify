@@ -1,0 +1,548 @@
+{
+  "sections": {
+    "announcements": {
+      "previous_announcement": "Предишно съобщение",
+      "next_announcement": "Следващо съобщение",
+      "carousel": "Въртележка",
+      "announcement": "Съобщение",
+      "announcement_bar": "Лента за съобщения"
+    },
+    "header": {
+      "announcement": "Съобщение",
+      "menu": "Меню",
+      "cart_count": {
+        "one": "{{ count }} елемент",
+        "other": "{{ count }} елемента"
+      }
+    },
+    "cart": {
+      "title": "Вашата количка",
+      "caption": "Количка артикули",
+      "remove_title": "Премахване на {{ title }}",
+      "estimated_total": "Очаквано общо",
+      "new_estimated_total": "Нова прогнозна обща сума",
+      "note": "Поръчайте специални инструкции",
+      "checkout": "Разгледайте",
+      "empty": "Вашата количка е празна",
+      "cart_error": "Възникна грешка при актуализирането на вашата количка. Моля, опитайте отново.",
+      "cart_quantity_error_html": "Можете да добавите само {{ quantity }} от този артикул в количката си.",
+      "taxes_and_shipping_policy_at_checkout_html": "Данъци, отстъпки и <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">доставка<\/a> , изчислени при плащане",
+      "taxes_included_but_shipping_at_checkout": "Включен данък и доставка и отстъпки, изчислени при плащане",
+      "taxes_included_and_shipping_policy_html": "Включен данък. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Доставката<\/a> и отстъпките се изчисляват при плащане.",
+      "taxes_and_shipping_at_checkout": "Данъци, отстъпки и доставка, изчислени при плащане",
+      "headings": {
+        "product": "Продукт",
+        "total": "Обща сума",
+        "quantity": "Количество",
+        "image": "Изображение на продукта"
+      },
+      "update": "Актуализация",
+      "login": {
+        "title": "Има акаунт?",
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link underlined-link\">Влезте,<\/a> за да проверите по-бързо."
+      }
+    },
+    "footer": {
+      "payment": "Начини за плащане"
+    },
+    "featured_blog": {
+      "view_all": "Виж всички",
+      "onboarding_title": "Блог пост",
+      "onboarding_content": "Дайте на клиентите си резюме на вашата публикация в блога"
+    },
+    "featured_collection": {
+      "view_all": "Виж всички",
+      "view_all_label": "Вижте всички продукти в колекцията {{ collection_name }}"
+    },
+    "collection_list": {
+      "view_all": "Виж всички"
+    },
+    "collection_template": {
+      "empty": "Няма намерени продукти",
+      "title": "колекция",
+      "use_fewer_filters_html": "Използвайте по-малко филтри или <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">премахнете всички<\/a>"
+    },
+    "video": {
+      "load_video": "Зареждане на видео: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Заредете слайд",
+      "previous_slideshow": "Предишен слайд",
+      "next_slideshow": "Следващ слайд",
+      "pause_slideshow": "Поставяне на слайдшоуто на пауза",
+      "play_slideshow": "Пускане на слайдшоу",
+      "carousel": "Въртележка",
+      "slide": "пързалка"
+    },
+    "page": {
+      "title": "Заглавие на страница"
+    },
+    "quick_order_list": {
+      "product_total": "Продуктова междинна сума",
+      "view_cart": "Вижте количката",
+      "each": "{{ money }} \/бр",
+      "product": "Продукт",
+      "variant": "Вариант",
+      "variant_total": "Вариант общо",
+      "items_added": {
+        "one": "Добавен е {{ quantity }} артикул",
+        "other": "Добавени са {{ quantity }} артикула"
+      },
+      "items_removed": {
+        "one": "{{ quantity }} елемент премахнат",
+        "other": "Премахнати са {{ quantity }} артикула"
+      },
+      "product_variants": "Варианти на продукта",
+      "total_items": "Общо елементи",
+      "remove_all_single_item_confirmation": "Да премахнете 1 артикул от количката си?",
+      "remove_all_items_confirmation": "Да премахнете ли всички {{ quantity }} артикули от количката си?",
+      "remove_all": "Премахнете всички",
+      "cancel": "Отказ",
+      "min_error": "Този артикул има минимум {{ min }}",
+      "max_error": "Този артикул има максимум {{ max }}",
+      "step_error": "Можете да добавяте този елемент само на стъпки от {{ step }}"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "Влезте в магазина с парола:",
+      "login_password_button": "Въведете с парола",
+      "login_form_password_label": "Парола",
+      "login_form_password_placeholder": "Твоята парола",
+      "login_form_error": "Грешна парола!",
+      "login_form_submit": "Въведете",
+      "admin_link_html": "Вие ли сте собственикът на магазина? <a href=\"\/admin\" class=\"link underlined-link\">Влезте тук<\/a>",
+      "powered_by_shopify_html": "Този магазин ще се захранва от {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Споделям във Фейсбук",
+        "share_on_twitter": "Споделете в X",
+        "share_on_pinterest": "Закачете в Pinterest"
+      }
+    },
+    "continue_shopping": "Продължи пазаруването",
+    "pagination": {
+      "label": "Пагинация",
+      "page": "{{ number }}",
+      "next": "Следваща страница",
+      "previous": "Предишна страница"
+    },
+    "search": {
+      "reset": "Изчистване на думата за търсене"
+    },
+    "cart": {
+      "view": "Вижте количката ( {{ count }} )",
+      "view_empty_cart": "Вижте количката",
+      "item_added": "Артикулът е добавен към вашата количка"
+    },
+    "share": {
+      "close": "Затворете споделянето",
+      "copy_to_clipboard": "Копирай връзка",
+      "share_url": "Връзка",
+      "success_message": "Връзката е копирана в клипборда"
+    },
+    "slider": {
+      "of": "на",
+      "next_slide": "Плъзнете надясно",
+      "previous_slide": "Плъзнете наляво",
+      "name": "Плъзгач"
+    }
+  },
+  "products": {
+    "facets": {
+      "clear": "ясно",
+      "clear_all": "Премахнете всички",
+      "from": "от",
+      "filter_and_sort": "Филтрирайте и сортирайте",
+      "filter_by_label": "филтър:",
+      "filter_button": "Филтър",
+      "filters_selected": {
+        "one": "{{ count }} избрани",
+        "other": "{{ count }} избрани"
+      },
+      "filter_selected_accessibility": "{{ type }} ( {{ count }} избрани филтри)",
+      "show_more": "Покажи повече",
+      "show_less": "Покажи по-малко",
+      "max_price": "Най-високата цена е {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} от {{ count }} продукт",
+        "other": "{{ product_count }} от {{ count }} продукта"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} продукт",
+        "other": "{{ count }} продукти"
+      },
+      "reset": "Нулиране",
+      "sort_button": "Вид",
+      "sort_by_label": "Сортиране по:",
+      "to": "Да се",
+      "clear_filter": "Отстранете филтъра",
+      "filter_and_operator_subtitle": "Съвпадение на всички",
+      "apply": "Приложи"
+    },
+    "product": {
+      "add_to_cart": "Добави в кошницата",
+      "choose_options": "Изберете опции",
+      "choose_product_options": "Изберете опции за {{ product_name }}",
+      "description": "Описание",
+      "inventory_in_stock": "В наличност",
+      "inventory_in_stock_show_count": "{{ quantity }} в наличност",
+      "inventory_low_stock": "Нисък запас",
+      "inventory_low_stock_show_count": "Малък запас: остава {{ quantity }}",
+      "inventory_out_of_stock": "Изчерпано количество",
+      "inventory_out_of_stock_continue_selling": "В наличност",
+      "on_sale": "Разпродажба",
+      "product_variants": "Варианти на продукта",
+      "media": {
+        "gallery_viewer": "Преглед на галерия",
+        "load_image": "Заредете изображение {{ index }} в изглед на галерия",
+        "load_model": "Заредете 3D модел {{ index }} в изглед на галерия",
+        "load_video": "Пускане на видео {{ index }} в изглед на галерия",
+        "image_available": "Изображение {{ index }} вече е достъпно в изглед на галерия",
+        "open_media": "Отворете медия {{ index }} в модален",
+        "play_model": "Играйте 3D Viewer",
+        "play_video": "Пускане на видео"
+      },
+      "quantity": {
+        "label": "Количество",
+        "input_label": "Количество за {{ product }}",
+        "increase": "Увеличете количеството за {{ product }}",
+        "decrease": "Намаляване на количеството за {{ product }}",
+        "minimum_of": "Минимум от {{ quantity }}",
+        "maximum_of": "Максимум {{ quantity }}",
+        "multiples_of": "Увеличения от {{ quantity }}",
+        "min_of": "Мин {{ quantity }}",
+        "max_of": "Макс {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> в количката",
+        "note": "Вижте правилата за количество"
+      },
+      "volume_pricing": {
+        "title": "Обемно ценообразуване",
+        "note": "Налична цена за обем",
+        "minimum": "{{ quantity }} +",
+        "price_at_each": "на {{ price }} \/бр"
+      },
+      "pickup_availability": {
+        "view_store_info": "Вижте информацията за магазина",
+        "check_other_stores": "Проверете наличността в други магазини",
+        "pick_up_available": "Възможност за вземане",
+        "pick_up_available_at_html": "Налично вземане от <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Понастоящем не може да се вземе от <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Наличността за получаване на място не можа да се зареди",
+        "refresh": "Опресняване"
+      },
+      "price": {
+        "from_price_html": "От {{ price }}",
+        "regular_price": "Редовна цена",
+        "sale_price": "Продажна цена",
+        "unit_price": "Единична цена"
+      },
+      "share": "Споделете този продукт",
+      "sold_out": "Продадено",
+      "unavailable": "Недостъпен",
+      "vendor": "Доставчик",
+      "value_unavailable": "{{ option_value }} – Недостъпно",
+      "variant_sold_out_or_unavailable": "Вариантът е продаден или не е наличен",
+      "video_exit_message": "{{ title }} отваря видео на цял екран в същия прозорец.",
+      "view_full_details": "Вижте пълните подробности",
+      "xr_button": "Преглед във вашето пространство",
+      "xr_button_label": "Преглед във вашето пространство, зарежда елемент в прозорец с добавена реалност",
+      "include_taxes": "Включен данък.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Доставката<\/a> се изчислява при плащане."
+    },
+    "modal": {
+      "label": "Медийна галерия"
+    }
+  },
+  "templates": {
+    "404": {
+      "title": "Страницата не е намерена"
+    },
+    "search": {
+      "no_results": "Няма намерени резултати за „ {{ terms }} “. Проверете правописа или използвайте друга дума или фраза.",
+      "page": "Страница",
+      "products": "Продукти",
+      "results_pages_with_count": {
+        "one": "{{ count }} страница",
+        "other": "{{ count }} страници"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} предложение",
+        "other": "{{ count }} предложения"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} продукт",
+        "other": "{{ count }} продукти"
+      },
+      "results_with_count": {
+        "one": "{{ count }} резултат",
+        "other": "{{ count }} резултати"
+      },
+      "results_with_count_and_term": {
+        "one": "Намерен {{ count }} резултат за „ {{ terms }} ”",
+        "other": "Намерени са {{ count }} резултата за „ {{ terms }} “"
+      },
+      "title": "Резултати от търсенето",
+      "search_for": "Търсете „ {{ terms }} ”",
+      "suggestions": "Предложения",
+      "pages": "Страници"
+    },
+    "cart": {
+      "cart": "Количка"
+    },
+    "contact": {
+      "form": {
+        "title": "Форма за контакти",
+        "name": "Име",
+        "email": "електронна поща",
+        "phone": "Телефонен номер",
+        "comment": "Коментирайте",
+        "send": "Изпратете",
+        "post_success": "Благодаря, че се свързахте с нас. Ще се свържем с вас възможно най-скоро.",
+        "error_heading": "Моля, коригирайте следното:"
+      }
+    }
+  },
+  "localization": {
+    "country_label": "Държавен регион",
+    "language_label": "език",
+    "update_language": "Актуализиране на езика",
+    "update_country": "Актуализирайте държавата\/региона",
+    "popular_countries_regions": "Популярни държави\/региони",
+    "country_results_count": "Намерени са {{ count }} държави\/региони"
+  },
+  "customer": {
+    "account": {
+      "title": "Сметка",
+      "details": "Детайли за акаунта",
+      "view_addresses": "Вижте адреси",
+      "return": "Върнете се към подробности за акаунта"
+    },
+    "account_fallback": "Сметка",
+    "activate_account": {
+      "title": "Активирайте акаунта",
+      "subtext": "Създайте парола, за да активирате акаунта си.",
+      "password": "Парола",
+      "password_confirm": "Потвърди парола",
+      "submit": "Активирайте акаунта",
+      "cancel": "Отклонете поканата"
+    },
+    "addresses": {
+      "title": "Адреси",
+      "default": "По подразбиране",
+      "add_new": "Добавете нов адрес",
+      "edit_address": "Редактиране на адреса",
+      "first_name": "Първо име",
+      "last_name": "Фамилия",
+      "company": "Компания",
+      "address1": "Адрес 1",
+      "address2": "Адрес 2",
+      "city": "град",
+      "country": "Държавен регион",
+      "province": "Провинция",
+      "zip": "Пощенски код",
+      "phone": "Телефон",
+      "set_default": "Задайте като адрес по подразбиране",
+      "add": "Добавете адрес",
+      "update": "Актуализирайте адреса",
+      "cancel": "Отказ",
+      "edit": "редактиране",
+      "delete": "Изтрий",
+      "delete_confirm": "Сигурни ли сте, че искате да изтриете този адрес?"
+    },
+    "log_in": "Влизам",
+    "log_out": "Излез от профила си",
+    "login_page": {
+      "cancel": "Отказ",
+      "create_account": "Създай акаунт",
+      "email": "електронна поща",
+      "forgot_password": "Забравена парола?",
+      "guest_continue": "продължи",
+      "guest_title": "Продължете като гост",
+      "password": "Парола",
+      "title": "Влизам",
+      "sign_in": "Впиши се",
+      "submit": "Изпращане",
+      "alternate_provider_separator": "или"
+    },
+    "order": {
+      "title": "Поръчай {{ name }}",
+      "date_html": "Поставено на {{ date }}",
+      "cancelled_html": "Поръчката е анулирана на {{ date }}",
+      "cancelled_reason": "Причина: {{ reason }}",
+      "billing_address": "адрес на плащане",
+      "payment_status": "Статус на плащането",
+      "shipping_address": "Адрес за доставка",
+      "fulfillment_status": "Статус на изпълнение",
+      "discount": "Отстъпка",
+      "shipping": "Доставка",
+      "tax": "Данък",
+      "product": "Продукт",
+      "quantity": "Количество",
+      "total": "Обща сума",
+      "total_refunded": "Възстановена сума",
+      "fulfilled_at_html": "Изпълнено {{ date }}",
+      "track_shipment": "Проследяване на пратката",
+      "tracking_url": "Връзка за проследяване",
+      "tracking_company": "Превозвач",
+      "tracking_number": "Номер за проследяване",
+      "subtotal": "Междинна сума",
+      "total_duties": "Задължения"
+    },
+    "orders": {
+      "title": "История на поръчките",
+      "order_number": "Поръчка",
+      "order_number_link": "Номер на поръчка {{ number }}",
+      "date": "Дата",
+      "payment_status": "Статус на плащането",
+      "fulfillment_status": "Състояние на изпълнение",
+      "total": "Обща сума",
+      "none": "Все още не сте направили никакви поръчки."
+    },
+    "recover_password": {
+      "title": "Променете паролата си",
+      "subtext": "Ще ви изпратим имейл, за да нулирате паролата си",
+      "success": "Изпратихме ви имейл с връзка за актуализиране на вашата парола."
+    },
+    "register": {
+      "title": "Създай акаунт",
+      "first_name": "Първо име",
+      "last_name": "Фамилия",
+      "email": "електронна поща",
+      "password": "Парола",
+      "submit": "Създавайте"
+    },
+    "reset_password": {
+      "title": "Нулирайте паролата на акаунта",
+      "subtext": "Въведете нова парола",
+      "password": "Парола",
+      "password_confirm": "Потвърди парола",
+      "submit": "Нулирайте паролата"
+    }
+  },
+  "newsletter": {
+    "label": "електронна поща",
+    "success": "Благодаря, че се абонирахте",
+    "button_label": "Абонирай се"
+  },
+  "accessibility": {
+    "skip_to_text": "Преминете към съдържанието",
+    "skip_to_product_info": "Преминете към информацията за продукта",
+    "close": "Близо",
+    "unit_price_separator": "пер",
+    "vendor": "Доставчик:",
+    "error": "Грешка",
+    "refresh_page": "Избирането на селекция води до пълно опресняване на страницата.",
+    "link_messages": {
+      "new_window": "Отваря се в нов прозорец.",
+      "external": "Отваря външен уебсайт."
+    },
+    "loading": "Зареждане...",
+    "total_reviews": "общо прегледи",
+    "star_reviews_info": "{{ rating_value }} от {{ rating_max }} звезди",
+    "collapsible_content_title": "Сгъваемо съдържание",
+    "complementary_products": "Допълващи продукти"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Блог",
+      "read_more_title": "Прочетете повече: {{ title }}",
+      "comments": {
+        "one": "{{ count }} коментар",
+        "other": "{{ count }} коментара"
+      },
+      "moderated": "Моля, имайте предвид, че коментарите трябва да бъдат одобрени, преди да бъдат публикувани.",
+      "comment_form_title": "Оставете коментар",
+      "name": "Име",
+      "email": "електронна поща",
+      "message": "Коментирайте",
+      "post": "Публикувай коментар",
+      "back_to_blog": "Назад към блога",
+      "share": "Споделете тази статия",
+      "success": "Вашият коментар беше публикуван успешно! Благодаря ти!",
+      "success_moderated": "Вашият коментар беше публикуван успешно. След малко ще го публикуваме, тъй като блогът ни е модериран."
+    }
+  },
+  "onboarding": {
+    "product_title": "Примерно заглавие на продукта",
+    "collection_title": "Името на вашата колекция"
+  },
+  "gift_cards": {
+    "issued": {
+      "how_to_use_gift_card": "Използвайте кода на подаръчната карта онлайн или QR кода в магазина",
+      "title": "Ето баланса на вашата карта за подарък {{ value }} за {{ shop }} !",
+      "subtext": "Вашата карта за подарък",
+      "gift_card_code": "Код на подаръчна карта",
+      "shop_link": "Посетете онлайн магазина",
+      "add_to_apple_wallet": "Добавете към Apple Wallet",
+      "qr_image_alt": "QR код — сканирайте, за да осребрите подаръчна карта",
+      "copy_code": "Копирайте кода на картата за подарък",
+      "expiration_date": "Изтича {{ expires_on }}",
+      "copy_code_success": "Кодът е копиран успешно",
+      "expired": "Просрочен"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "Искам да изпратя това като подарък",
+      "expanded": "Формулярът за получател на карта за подарък е разширен",
+      "collapsed": "Формулярът за получател на карта за подарък е свит",
+      "email_label": "Имейл на получателя",
+      "email_label_optional_for_no_js_behavior": "Имейл на получателя (по избор)",
+      "email": "електронна поща",
+      "name_label": "Име на получателя (по избор)",
+      "name": "Име",
+      "message_label": "Съобщение (по избор)",
+      "message": "Съобщение",
+      "max_characters": "Макс {{ max_chars }} знака",
+      "send_on": "ГГГГ-ММ-ДД",
+      "send_on_label": "Изпрати на (по избор)"
+    }
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
+    }
+  }
+}

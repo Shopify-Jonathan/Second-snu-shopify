@@ -1,0 +1,106 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_jbnyby": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_NqE6BV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will my order be shipped?",
+            "icon": "question_mark",
+            "row_content": "<p>We generally ship orders every day. If your order has been placed before 15:00 \/ 3:00 PM (GMT+2), it will be dispatched on the same day, subject to exceptions.<\/p><p>If your order has been placed after 15:00, it will be dispatched the next week day.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DA7Bzd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the delivery time and what shipping options do i have?",
+            "icon": "question_mark",
+            "row_content": "<p>We offer shipping with UPS and GLS to most countries. The delivery time depends on your country. Click the following link to see exact delivery time and prices for your country:<br\/><br\/><a href=\"\/pages\/shipping-prices-delivery-times\" title=\"SHIPPING INFORMATION\">SHIPPING PRICES AND DELIVERY TIMES<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_AkTUyx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can i track my order?",
+            "icon": "question_mark",
+            "row_content": "<p>You will receive an e-mail with your tracking number, once your order has been shipped. The sender will be stated as \"Cebion Services Sp Zoo\"<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_C9J4Um": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do you pack orders?",
+            "icon": "question_mark",
+            "row_content": "<p>All orders are packed in discrete carton boxes, with no information about the content.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Q3QGXz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I can't find my order confirmation. What should i do?",
+            "icon": "question_mark",
+            "row_content": "<p>We advise you to check your spam folder. All order confirmations is sent automatically, so if you can't find it in your normal folder, nor your spam folder, please contact us.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_grRaED": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there any risk that my order will be confiscated by the customs?",
+            "icon": "question_mark",
+            "row_content": "<p>There is no risk at all. All our products are legal and approved for sale in Europe. We guarantee the delivery of your order, without any additional cost.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Rq8nHz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens if my order goes missing?",
+            "icon": "question_mark",
+            "row_content": "<p>If your order goes missing, the loss will be covered by the transportation company. We will dispatch a new order same day, so you wont have to wait.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_NqE6BV",
+        "collapsible_row_DA7Bzd",
+        "collapsible_row_AkTUyx",
+        "collapsible_row_C9J4Um",
+        "collapsible_row_Q3QGXz",
+        "collapsible_row_grRaED",
+        "collapsible_row_Rq8nHz"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_jbnyby"
+  ]
+}

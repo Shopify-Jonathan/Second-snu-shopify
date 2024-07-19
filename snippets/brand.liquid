@@ -1,0 +1,23 @@
+<div class="brand-menu-images">
+    <div class="brandone">
+      <div class="overlay"></div>
+      <div class="brand-text">
+      <p class="first-headingimg">{{ section.settings.first-headingimg }}</p>
+      <a href="{{ section.settings.first-btn-url }}" title="{{ section.settings.first-btn-text }}">
+        <p class="first-btn-text">{{ section.settings.first-btn-text }}</p></a>
+      </div>
+      <img src="{{ section.settings.brandone | img_url: 'master'  }}">
+    </div>
+    {% if section.settings.brandtwo != blank %}
+    <div class="brandtwo">
+      <div class="overlay"></div>
+      <div class="brand-text">
+        <p class="sec-headingimg">{{ section.settings.sec-headingimg }}</p>
+        <a href="{{ section.settings.first-btn-url }}" title="{{ section.settings.sec-btn-text }}">
+          <p class="sec-btn-text">{{ section.settings.sec-btn-text }}</p></a>
+        </div>
+
+      <img src="{{ section.settings.brandtwo | img_url: 'master'  }}">
+    </div>
+  {% endif %}
+  </div>

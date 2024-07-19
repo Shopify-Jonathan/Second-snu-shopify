@@ -1,0 +1,54 @@
+<div class="slider-container-s for-mob-only">
+    <div class="slider-s">
+        {% for block in section.blocks %}
+        <div class="slide-s">
+          <div class="upper-text">
+            <i class="{{ block.settings.icon }}"></i>
+            <p>{{ block.settings.text }}</p>
+            </div>
+            <div class="desktop-none sub-ann-text">
+            <p>{{ block.settings.mob-text }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Autoplay Text Slider",
+  "class": "auto-playmob",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "icon",
+          "label": "Icon (FontAwesome class)"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Slide Text"
+        },
+        {
+          "type": "text",
+          "id": "mob-text",
+          "label": "Slide Text For Mobile"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Autoplay Text Slider",
+      "category": "Custom"
+    }
+  ],
+  "max_blocks": 5
+}
+{% endschema %}

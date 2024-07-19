@@ -1,0 +1,84 @@
+
+<div class="att_cat strength">
+    {% if product.metafields.custom.strength == 'NORMAL' %}
+       <div class="drop_cat strength ">
+            <h6>STYRKE</h6> 
+
+        <div class="drop_img3">
+            <div class="stærk normal">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+      
+</div>
+         <div class="mask2">
+          <span class="mark">{{ product.metafields.custom.strength }}</span>
+        </div>
+        {% elsif product.metafields.custom.strength == 'STRONG' %}
+        <div class="drop_cat strength">
+            <h6>STYRKE</h6> 
+            <div class="drop_img3">
+                <div class="stærk strong">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+      </div>
+               <div class="mask2">
+                <span class="mark">{{ product.metafields.custom.strength }}</span>
+              </div>
+
+              {% elsif product.metafields.custom.strength == 'EXTRA STRONG' %}
+              <div class="drop_cat strength">
+                  <h6>STYRKE</h6> 
+                  <div class="drop_img3">
+                      <div class="stærk e-strong">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                      </div>
+                  </div>
+            </div>
+                     <div class="mask2">
+                      <span class="mark">{{ product.metafields.custom.strength }}</span>
+                    </div>
+
+                    {% elsif product.metafields.custom.strength == 'EXTREMELY STRONG' %}
+                    <div class="drop_cat strength">
+                        <h6>STYRKE</h6> 
+                        <div class="drop_img3">
+                            <div class="stærk ext-strong">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                  </div>
+                           <div class="mask2">
+                            <span class="mark">{{ product.metafields.custom.strength }}</span>
+                          </div>
+              {% else %}
+              
+              <div class="drop_cat">
+                <h6>STYRKE</h6> 
+                <div class="drop_img3">
+                    <div class="stærk">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+          </div>
+                   <div class="mask2">
+                    <span class="mark">Normal</span>
+                  </div>
+    {% endif %}
+  </div>

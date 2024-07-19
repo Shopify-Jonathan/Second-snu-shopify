@@ -1,0 +1,438 @@
+{% comment %}
+  Renders a megamenu for the header.
+
+  Usage:
+  {% render 'header-mega-menu' %}
+{% endcomment %}
+
+<div class="menu-custom">
+  <header>
+ {% if section.settings.menu != blank %} 
+  {% render 'header-drawer' %}
+{%   endif %}
+</header>
+<div class="new-header-here">
+<nav class="header__inline-menu">
+  <ul class="list-menu list-menu--inline" role="list">
+    {%- for link in section.settings.menu.links -%}
+      <li>
+        {%- if link.links != blank -%}
+          <header-menu>
+            <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
+              <summary
+                id="HeaderMenu-{{ link.handle }}"
+                class="header__menu-item list-menu__item link focus-inset"
+              >
+                <span
+                  {%- if link.child_active %}
+                    class="header__active-menu-item"
+                  {% endif %}
+                >
+                  {{- link.title | escape -}}
+                 <a href="{{- link.url -}}"></a>
+                </span>
+                {% render 'icon-caret' %}
+              </summary>
+              
+              {% if link.url contains '/collections/maerker'  %}
+                <div
+                  id="MegaMenu-Content-{{ forloop.index }}"
+                  class="new mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+                  tabindex="-1"
+                >
+                {% render 'brand' %}
+                  <ul
+                    class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                    role="list"
+                  >
+                    {%- for childlink in link.links -%}
+                      <li>
+                        <a
+                          id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                          href="{{ childlink.url }}"
+                          class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                          {% if childlink.current %}
+                            aria-current="page"
+                          {% endif %}
+                        >
+                          {{ childlink.title | escape }}
+                        </a>
+                        {%- if childlink.links != blank -%}
+                          <ul class="list-unstyled" role="list">
+                            {%- for grandchildlink in childlink.links -%}
+                              <li>
+                                <a
+                                  id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                  href="{{ grandchildlink.url }}"
+                                  class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                  {% if grandchildlink.current %}
+                                    aria-current="page"
+                                  {% endif %}
+                                >
+                                  {{ grandchildlink.title | escape }}
+                                </a>
+                              </li>
+                            {%- endfor -%}
+                          </ul>
+                        {%- endif -%}
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                </div>
+                {% elsif link.url contains '/collections/styrke' %}
+              <div
+                id="MegaMenu-Content-{{ forloop.index }}"
+                class="strength mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+                tabindex="-1"
+              >
+                {% assign strength_word = "STRENGTH" %}
+                <p class="menu-title">{{strength_word}}</p>
+                <ul
+                  class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                  role="list"
+                >
+                  {%- for childlink in link.links -%}
+                    <a
+                      id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                      href="{{ childlink.url }}"
+                      class="madi mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                      {% if childlink.current %}
+                        aria-current="page"
+                      {% endif %}
+                    >
+                    <li class="sg_loading-{{ forloop.index }}">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </li>
+            
+                      <p>  {{ childlink.title | escape }}</p>
+                      </a>
+                      {%- if childlink.links != blank -%}
+                        <ul class="list-unstyled" role="list">
+                          {%- for grandchildlink in childlink.links -%}
+                            <li>
+                              <a
+                                id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                href="{{ grandchildlink.url }}"
+                                class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                {% if grandchildlink.current %}
+                                  aria-current="page"
+                                {% endif %}
+                              >
+                                {{ grandchildlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      {%- endif -%}
+                
+                  {%- endfor -%}
+                </ul> 
+              </div>
+              {% elsif link.url contains  '/collections/smag' %}
+              <div
+                id="MegaMenu-Content-{{ forloop.index }}"
+                class="FLAVOUR mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+                tabindex="-1"
+              >
+                <ul
+                  class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                  role="list"
+                >
+                  {%- for childlink in link.links -%}
+                    <li>
+                      {% if childlink.handle == 'm-i-n-t' %}
+                       
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="mint mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-brands fa-envira"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% elsif childlink.handle == 'ae-b-l-e' %}
+                    
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="apple mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-solid fa-apple-whole"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% elsif childlink.handle == 'v-a-n-d-m-e-l-o-n' %}
+                     
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="WATERMELON mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-solid fa-watermelon-slice"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% elsif childlink.handle == 'e-n-e-r-g-i-d-r-i-k' %}
+                 
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="ENERGY-DRINK mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-solid fa-cup-straw-swoosh"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% elsif childlink.handle == 'b-ae-r' %}
+                  
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="BERRIES mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-solid fa-grapes"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% elsif childlink.handle == 'a-n-a-n-a-s' %}
+                     
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="PINEAPPLE mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-regular fa-pineapple"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% elsif childlink.handle == 'b-l-a-b-ae-r' %}
+                    
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="BLUEBERRY mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-regular fa-blueberries"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% elsif childlink.handle == 't-y-g-g-e-g-u-m-m-i' %}
+                      
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="BUBBLEGUM mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-regular fa-candy"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% elsif childlink.handle == 'l-i-m-e' %}
+                    
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="LIME mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-regular fa-lemon"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% elsif childlink.handle == 'c-o-l-a' %}
+                      
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="COLA mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-regular fa-cup-straw"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% elsif childlink.handle == 'm-e-l-o-n' %}
+                     
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="MELON mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-regular fa-melon-slice"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% elsif childlink.handle == 'l-a-k-r-i-d-s' %}
+                    
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="LIQUORICE mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        <i class="fa-regular fa-candy-corn"></i>
+                        {{ childlink.title | escape }}
+                      </a>
+                      {% else %}
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="all mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        {{ childlink.title | escape }}
+                      </a>
+                    {% endif %}
+                      {%- if childlink.links != blank -%}
+                        <ul class="list-unstyled" role="list">
+                          {%- for grandchildlink in childlink.links -%}
+                            <li>
+                              <a
+                                id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                href="{{ grandchildlink.url }}"
+                                class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                {% if grandchildlink.current %}
+                                  aria-current="page"
+                                {% endif %}
+                              >
+                                {{ grandchildlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              </div>
+              {% else %}
+              <div
+                id="MegaMenu-Content-{{ forloop.index }}"
+                class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+                tabindex="-1"
+              >
+                <ul
+                  class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                  role="list"
+                >
+                  {%- for childlink in link.links -%}
+                    <li>
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        {{ childlink.title | escape }}
+                      </a>
+                      {%- if childlink.links != blank -%}
+                        <ul class="list-unstyled" role="list">
+                          {%- for grandchildlink in childlink.links -%}
+                            <li>
+                              <a
+                                id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                href="{{ grandchildlink.url }}"
+                                class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                {% if grandchildlink.current %}
+                                  aria-current="page"
+                                {% endif %}
+                              >
+                                {{ grandchildlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              </div>
+            {% endif %}
+            </details>
+          </header-menu>
+        {%- else -%}
+          <a
+            id="HeaderMenu-{{ link.handle }}"
+            href="{{ link.url }}"
+            class="header__menu-item list-menu__item link link--text focus-inset"
+            {% if link.current %}
+              aria-current="page"
+            {% endif %}
+          >
+            <span
+              {%- if link.current %}
+                class="header__active-menu-item"
+              {% endif %}
+            >
+              {% if link.title == 'VAPES'  %}
+              {{- link.title | escape -}}
+              <span class="menu-badge badge-bounce">NY</span>
+              {% else %}
+              {{- link.title | escape -}}
+              {% endif %}
+            </span>
+          </a>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>
+<div class="right-menu-tab">
+  <div class="icons-menu">
+  {%- if shop.customer_accounts_enabled -%}
+    <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+      <account-icon>
+        {%- if customer and customer.has_avatar? -%}
+          {{ customer | avatar }}
+        {%- else -%}
+        <i class="fas fa-user" aria-hidden="true"></i>
+        {%- endif -%}
+      </account-icon>
+    </a>
+  {%- endif -%}
+  <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+    <span class="t-span">{{- link.title | escape -}}</span>
+    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+    {%- if cart != empty -%}
+      <div class="cart-count-bubble">
+        {%- if cart.item_count < 100 -%}
+          <span aria-hidden="true">{{ cart.item_count }}</span>
+        {%- endif -%}
+        <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
+      </div>
+    {%- endif -%}
+  </a> 
+</div>
+</div>
+</div>
+</div>

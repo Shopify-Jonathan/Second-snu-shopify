@@ -1,0 +1,448 @@
+{
+  "sections": {
+    "text_with_link_gf6j3F": {
+      "type": "text-with-link",
+      "settings": {
+        "heading": "LÆS FØR BESTILLING",
+        "link": "#"
+      }
+    },
+    "image_banner_biAwAK": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/xUQpDyF_17f5ebbd-80a4-456d-8d6f-3eac3933066c.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "icon_with_text_autoplay_nQ9ma6": {
+      "type": "icon-with-text-autoplay",
+      "blocks": {
+        "slide_GBNxkF": {
+          "type": "slide",
+          "settings": {
+            "icon": "fas fa-truck",
+            "text": "Fast Delivery",
+            "mob-text": "We aim to deliver as fast as possible"
+          }
+        },
+        "slide_3bnCR6": {
+          "type": "slide",
+          "settings": {
+            "icon": "fas fa-box-open",
+            "text": "DISCREET PACKAGING",
+            "mob-text": "Our packages are packed without visible branding"
+          }
+        },
+        "slide_FFmx8D": {
+          "type": "slide",
+          "settings": {
+            "icon": "fas fa-credit-card",
+            "text": "Secure Payment",
+            "mob-text": "Pay safe and secure with our payment gateway"
+          }
+        },
+        "slide_4HUJ6U": {
+          "type": "slide",
+          "settings": {
+            "icon": "fas fa-award",
+            "text": "HIGH CUSTOMER RATING",
+            "mob-text": "Exceptional customer service, and fast response!"
+          }
+        }
+      },
+      "block_order": [
+        "slide_GBNxkF",
+        "slide_3bnCR6",
+        "slide_FFmx8D",
+        "slide_4HUJ6U"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "icon_with_texts_tPaJad": {
+      "type": "icon-with-texts",
+      "blocks": {
+        "column_DKbeVH": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fa-brands fa-envira\"><\/i>",
+            "title": "MINT",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "column_M3nhWL": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fa-solid fa-apple-whole\"><\/i>",
+            "title": "APPLE",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "column_QLtfhL": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fa-solid fa-watermelon-slice\"><\/i>",
+            "title": "WATERMELON",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "column_bTEtqJ": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fa-solid fa-cup-straw-swoosh\"><\/i>",
+            "title": "ENERGY DRINK",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "column_AGd9mX": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fa-solid fa-grapes\"><\/i>",
+            "title": "BERRIES",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "column_PcrUkP": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fa-regular fa-pineapple\"><\/i>",
+            "title": "PINEAPPLE",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "column_rLarAj": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fa-regular fa-blueberries\"><\/i>",
+            "title": "BLUEBERRY",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "column_EYnhE6": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fa-solid fa-lemon\"><\/i>",
+            "title": "LIME",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "column_DKQRHy": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fa-solid fa-candy\"><\/i>",
+            "title": "BUBBLEGUM",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "column_DKbeVH",
+        "column_M3nhWL",
+        "column_QLtfhL",
+        "column_bTEtqJ",
+        "column_AGd9mX",
+        "column_PcrUkP",
+        "column_rLarAj",
+        "column_EYnhE6",
+        "column_DKQRHy"
+      ],
+      "settings": {
+        "custom-class": "second-column",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 10,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "first_icon_with_text_XneRhd": {
+      "type": "first-icon-with-text",
+      "blocks": {
+        "column_WTmCwM": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fas fa-truck\"><\/i>",
+            "title": "",
+            "text": "<p>HURTIG LEVERING<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dLUCrc": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fas fa-box-open\"><\/i>",
+            "title": "",
+            "text": "<p>ANONYM INDPAKNING<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eqHPRB": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fas fa-credit-card\"><\/i>",
+            "title": "",
+            "text": "<p>SIKKER BETALING<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eYF9QV": {
+          "type": "column",
+          "settings": {
+            "custom_liquid": "<i class=\"fas fa-award\"><\/i>",
+            "title": "",
+            "text": "<p>100% KUNDE TILFREDSHED<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_WTmCwM",
+        "column_dLUCrc",
+        "column_eqHPRB",
+        "column_eYF9QV"
+      ],
+      "settings": {
+        "custom-class": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "featured_collection_J6Nr9n": {
+      "type": "featured-collection",
+      "settings": {
+        "custom-class": "",
+        "title": "VELO PRODUKTER",
+        "Sub-heading-text": "FLERE VELO PRODUKTER",
+        "Sub-heading-link": "shopify:\/\/collections\/velo",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "velo",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-3",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_jhnYac": {
+      "type": "featured-collection",
+      "settings": {
+        "custom-class": "without-img",
+        "title": "NOR PRODUCTS",
+        "Sub-heading-text": "MORE NOR PRODUCTS",
+        "Sub-heading-link": "shopify:\/\/collections\/nor",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "nor",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_with_box_rHQgiE": {
+      "type": "video-with-box",
+      "blocks": {
+        "video_4bVbC7": {
+          "type": "video",
+          "settings": {
+            "self_hosted_video": "shopify:\/\/files\/videos\/sg.mp4",
+            "autoplay": true,
+            "controller": false
+          }
+        },
+        "boxes_RmjTR4": {
+          "type": "boxes",
+          "settings": {
+            "text": "V E L O",
+            "link": "shopify:\/\/collections\/velo",
+            "text2": "ACE",
+            "link2": "shopify:\/\/collections\/ace",
+            "text3": "P A B L O",
+            "link3": "shopify:\/\/collections\/pablo",
+            "text4": "K I L L A",
+            "link4": "shopify:\/\/collections\/killa",
+            "text5": "L Y F T",
+            "link5": "shopify:\/\/collections\/lyft",
+            "text6": "L I P S",
+            "link6": "shopify:\/\/collections\/lips",
+            "text7": "F E D R S",
+            "link7": "shopify:\/\/collections\/fedrs",
+            "text8": "S K R U F",
+            "link8": "shopify:\/\/collections\/skruf",
+            "text9": "R A B B I T",
+            "link9": "shopify:\/\/collections\/rabbit"
+          }
+        }
+      },
+      "block_order": [
+        "video_4bVbC7",
+        "boxes_RmjTR4"
+      ],
+      "settings": {
+        "heading": "POPULÆRE MÆRKER",
+        "heading-sub": "UDFORSK FLERE MÆRKER",
+        "link_main": "#",
+        "image": "shopify:\/\/shop_images\/category-1.png"
+      }
+    },
+    "17191140418da6f007": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "text_block_ie4AEh": {
+      "type": "text-block",
+      "blocks": {
+        "text_k3w37c": {
+          "type": "Text",
+          "settings": {
+            "heading": "Snus",
+            "link": "<p>Snus \/ nikotinposer er en type tobaksfri snus, der er blevet meget populær i specielt Skandinavien. Der er mange varianter af snus, der varierer i smag, styrke og konsistens. Nogle typer er tobaksfri, bestående af plantefibre, tilsat nikotin og er pakket i små poser, mens andre er løssnus, der skal formes i hånden før brug.<\/p><p>Her hos Snusgiganten.dk sælger vi førstnævnte slags, hvor vi med vores brede sortiment kan tilfredstille alle behov der skulle være. Nikotinindholdet i nikotinposerne varierer også, og nogle mærker tilbyder forskellige styrker til at imødekomme brugernes præferencer. Nikotin-alternativet kan nydes på mange forskellige måder, og dens popularitet skyldes blandt andet dens diskrete og bekvemme karakter.<\/p>"
+          }
+        },
+        "text_cwheTR": {
+          "type": "Text",
+          "settings": {
+            "heading": "Om nikotinposer",
+            "link": "<p>Snus, også kendt som nikotinposer, er en tobaksfri snusvariant, der har en historie, der strækker sig over 200 år tilbage i Skandinavien. Oprindeligt opfundet som en alternativ måde at nyde nikotin på, er snus og nikotinposer i dag populære blandt både tidligere rygere og dem, der ønsker at undgå de potentielle sundhedsrisici, der er forbundet med traditionel rygning.<\/p><p>Hos Snusgiganten.dk har vores ekspertise lagt fundamentet for at identificere og tilbyde de mest fremragende snus-produkter på verdensplan til vores kunder. Vi har en passion for at sikre, at vores kunder får adgang til det bedste og mest mangfoldige udvalg af snus og nikotinposer. Kvalitet, smag og variation er vores varemærker, og vores sortiment afspejler dette engagement i at levere kun det fineste til vores kunder.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_k3w37c",
+        "text_cwheTR"
+      ],
+      "settings": {
+        "heading": "Køb Snus",
+        "text": "<p>Køb Snus hos Snusgiganten.dk for at sikre dig at du shopper til de bedste priser i Danmark. Før du køber, er der flere faktorer, du bør overveje før du træffer dit valg. For det første skal du overveje, hvilken type snus du foretrækker, da der er mange forskellige varianter at vælge imellem. Du skal også overveje nikotinstyrken, da det kan variere fra mærke til mærke. Hos Snusgiganten.dk sidder vi altid klar til at hjælpe dig, om end kan du se vores store sortiment af Danmarks billigste snus. Vi har stort set alt hvad hjertet begærer indenfor snus-produkter og vores kundeservice er altid tilgængelig for at besvare eventuelle spørgsmål, du måtte have. Køb snus hos os idag, og få det leveret lynhurtigt!<\/p>"
+      }
+    },
+    "rich_text_3QTTJ4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wfinYx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Snus pris",
+            "heading_size": "h1"
+          }
+        },
+        "text_LAn9Ui": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Variationen i prisen på snus er afhængig af flere faktorer, såsom mærke, størrelse og nikotinstyrke. Generelt set ligger prisen på snus ofte højere end cigaretter. Prisspændet for en enkelt dåse snus ligger typisk mellem 50 og 100 kroner. Ved køb af større mængder hos Snusgiganten, kan man selvfølgelig komme op og spare en del penge. Læs mere om dette herunder.<\/p><p>Der eksisterer flere strategier til at skære ned på udgifterne til snus. En af disse inkluderer at anskaffe snus i større mængder. En anden metode involverer online køb af snus, hvor besparelser kan opnås. Derudover florerer diverse rabatkoder og specialtilbud, der kan give dig en favorabel pris på din snus.<\/p><p>I tilfælde af at du overvejer at erhverve snus, er det væsentligt at foretage grundig research og identificere en troværdig forhandler. Det er også essentielt at være opmærksom på de potentielle sundhedsrisici, der knytter sig til snusbrug.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wfinYx",
+        "text_LAn9Ui"
+      ],
+      "settings": {
+        "custom-class": "full-width",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "text_with_link_gf6j3F",
+    "image_banner_biAwAK",
+    "icon_with_text_autoplay_nQ9ma6",
+    "icon_with_texts_tPaJad",
+    "first_icon_with_text_XneRhd",
+    "featured_collection_J6Nr9n",
+    "featured_collection_jhnYac",
+    "video_with_box_rHQgiE",
+    "17191140418da6f007",
+    "text_block_ie4AEh",
+    "rich_text_3QTTJ4"
+  ]
+}

@@ -1,0 +1,33 @@
+<div class="page-width text-main-section">
+    <a href="{{ section.settings.link }}" title="{{ section.settings.heading }}">
+    {{ section.settings.heading }}
+    <i class="fas fa-angle-right" aria-hidden="true"></i>
+    </a>
+    </div>
+
+    
+{% schema %}
+{
+  "name": "Text with Link",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Enter Button Text"
+    },
+    {
+        "type": "url",
+        "id": "link",
+        "label": "Button Link"
+    }
+],
+"presets": [
+    {
+      "name": "Text with Link"
+    }
+]
+}
+
+    {% endschema %}

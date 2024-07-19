@@ -1,0 +1,86 @@
+<div class="page-width progress-bar color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+    <div class="">
+                <div class="" >
+        <div class="">
+<ol aria-label="progress steps" class="progress-bar">
+    <li class="complete">
+        <span class="hidden-visually">completed step: </span>
+        <a href="http://example.com">
+            <div class="step-number" id="step-1">1</div>
+            <div class="step-title" id="step-1-title">Choose products</div>
+        </a>
+        <div class="step-description" id="step-1-description">Select your desired products and add them to the cart</div>
+    </li>
+    <li class="complete">
+        <span class="hidden-visually">completed step: </span>
+        <a href="http://example.com">
+            <div class="step-number" id="step-2">2</div>
+            <div class="step-title" id="step-2-title">Confirm &amp; Pay</div>
+        </a>
+        <div class="step-description" id="step-2-description">Add your payment details and pay for your order!</div>
+    </li>
+    <li aria-current="step">
+        <a>
+            <div class="step-number" id="step-3">3</div>
+            <div class="step-title" id="step-3-title">Tracking &amp; Invoice</div>
+        </a>
+        <div class="step-description" id="step-3-description">You'll receive a tracking link &amp; invoice on mail</div>
+    </li>
+        <li>
+            <span class="hidden-visually">future step: </span>
+            <a>
+                <div class="step-number" id="step-4">4</div>
+                <div class="step-title" id="step-1-title">Woohoo!</div>
+            </a>
+            <div class="step-description" id="step-4-description">Your package has been delivered!</div>
+        </li>
+    </ol>
+</div>
+</div>
+        </div>
+    </div>
+
+    
+{% schema %}
+{
+  "name": "Progress Bar",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Multicolumn",
+      "label": "t:sections.multicolumn.settings.title.label"
+    },
+    {
+        "type": "select",
+        "id": "background_style",
+        "options": [
+          {
+            "value": "none",
+            "label": "t:sections.multicolumn.settings.background_style.options__1.label"
+          },
+          {
+            "value": "primary",
+            "label": "t:sections.multicolumn.settings.background_style.options__2.label"
+          }
+        ],
+        "default": "primary",
+        "label": "t:sections.multicolumn.settings.background_style.label"
+      }
+  ],
+  "presets": [
+    {
+      "name": "Progress Bar",
+      "blocks": [
+       
+      ]
+    }
+  ]
+}
+  
+{% endschema  %}
